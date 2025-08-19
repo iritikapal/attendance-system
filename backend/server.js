@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
   res.send("Backend is running ✅");
 });
 
-app.get("/api/attendance", (req, res) => {
+app.get("/attendance", (req, res) => {
   res.json({ message: "Attendance API working" });
 });
 
